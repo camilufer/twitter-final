@@ -1,0 +1,153 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+/* color y tamaño del fondo*/
+body{
+    background-color: #E6ECF0;
+	background-size: 100%;
+}
+/*cabecera fix*/
+header{
+	position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+/*le quitamos el subrallado y hacemos que la lista quede horizontal*/
+ul{
+ 	list-style: none;
+ 	line-height: 43px;
+ 	padding-left: 10px;
+ }
+
+li{
+ 	display: inline-block;
+    width: 100px;
+    text-align:center;
+    margin-top: 15px;
+    margin-left: 40px;   
+ }
+
+a{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bolder;
+	color:#738391;	
+}
+
+a:hover{
+	color:#1DA1F2;
+	text-underline-position: under;
+}
+/*estilos de nuestro text area*/
+form{
+	background-color: #E5F4F8;
+	padding: 20px;
+	width: 580px;
+	margin-left: 300px;
+}
+
+textarea{
+	margin-top:100px;
+	border-color: #BFE5ED;
+	/*con over y resize agrandamos el text area para que no se desborde el texto*/
+	resize: none;
+	overflow: hidden;
+	padding: 20px;
+	margin-left: 20px;
+}
+/*estilos de boton*/
+button{
+	background-color: #ABDCF9;
+	border-radius: 10px;
+	border: transparent;
+	margin-left: 20px;
+	height: 30px;
+	width: 80px;
+	color: white;
+}
+
+.tweets{
+	background-color: white;
+	margin: 1%;
+	padding: 1%;
+	border: 1px solid #E1E8ED;
+}
+
+/*estilo de contenedor de tweet*/
+#contenedor{
+	width: 600px;
+	margin-left: 310px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/*posisionando el contador de caracteres*/
+#contador{
+	margin-left: 530px;
+	margin-top:10px;
+	position: absolute;
+}
+
+ /*estilos iconos */
+.icon-brand:before {
+  content: "\e901";
+  color: #1da1f2;
+}
+
+.icon-brand{
+	position: absolute;
+	margin-left: 600px;
+	margin-top:25px;
+	font-size: 30px;
+}
+
+.icon-menu:before {
+  content: "\e900";
+}
+
+.icon-menu{
+	position: absolute;
+	margin-left: 50px;
+	margin-top:25px;
+	font-size: 20px;
+	color: grey;
+}
+
+.icon-notifications_none:before {
+  content: "\e903";
+}
+
+.icon-notifications_none{
+	position: absolute;
+	margin-left: 23px;
+	margin-top:25px;
+	font-size: 22px;
+	color: grey;
+}
+
+.icon-envelope-o:before {
+  content: "\e905";
+}
+
+.icon-envelope-o{
+	position: absolute;
+	margin-left: 34px;
+	margin-top:25px;
+	font-size: 22px;
+	color: grey;
+}
+
+.icon-user:before {
+  content: "\e902";
+}
+
+.icon-user{
+	position: absolute;
+	margin-left: 754px;
+	margin-top:22px;
+	font-size: 45px;
+	color: grey;
+}
+
